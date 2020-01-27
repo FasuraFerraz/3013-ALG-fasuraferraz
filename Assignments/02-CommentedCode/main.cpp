@@ -8,10 +8,11 @@
 // Semester:         Spring 2020
 //
 // Description:
-//       describe program here thoroughly 
+//       Program creates 2 objects from List class and then concatenates them into a third List, 
+//       and then makes printing manipulations to them.
 //
 // Usage:
-//       how to use the program if necessary
+//       JUST RUN THE PROGRAM MAN
 //
 // Files:
 //       main.cpp   :   driver program
@@ -109,7 +110,7 @@ public:
      * Returns:
      *      void
      */
-    void Push(int val) {                    //
+    void Push(int val) {                    
         // allocate new memory and init node
         Node *Temp = new Node(val);         // creates pointer *Temp which points to a new Node with val value
 
@@ -283,7 +284,7 @@ public:
      * 
      * Params:
      *      ostrean    :    output stream variable
-     *      List       :    other List besides the one that calls the method
+     *      List       :    List from which the method will get the string to be printed
      * 
      * Returns:
      *      ostream    :    output stream variable
